@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 60px;
+  padding: 40px;
 }
 input {
   color: gray;
@@ -26,7 +26,7 @@ input:focus {
   border-radius: 6px;
   margin-bottom: 10px;
   margin-left: 10px;
-  object-fit: cover;
+  overflow: hidden; 
 }
 
 .card p {
@@ -44,4 +44,9 @@ input:focus {
   display: flex;
   flex-flow: row wrap;
   justify-content:space-evenly;
+  align-items: center;
+}
+
+ol {
+  padding: 0;
 }
