@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AddCategory from "./components/AddCategory";
+import { Footer } from "./components/Footer";
 import { GifGrid } from "./components/GifGrid";
 
 const GifExpertApp = () => {
@@ -19,6 +20,8 @@ const GifExpertApp = () => {
           <GifGrid key={category} category={category} />
         ))}
       </ol>
+
+      <Footer />
     </>
   );
 };
